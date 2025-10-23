@@ -1,4 +1,4 @@
-## 📝 Identitas Praktikan
+## Identitas Praktikan
 
 - Nama: Zidane Surya Nugraha
 - Nim: 607022400036
@@ -29,7 +29,7 @@
 - 🚪 Logout functionality
 - 🔒 Protected route (hanya bisa diakses setelah login)
 
-## 🎯 Cara Menggunakan 
+## Cara Menggunakan 
 
 ### Metode 1: Buka Langsung di Browser
 ```bash
