@@ -1,9 +1,9 @@
 ## 📝 Identias Praktikan
 
-**Nama:** Zidane Surya Nugraha
-**Nim:** 607022400036
-**Kelas:** D3TK-48-01  
-**Mata Kuliah:** Pemrograman Web  
+- Nama: Zidane Surya Nugraha
+- Nim: 607022400036
+- Kelas: D3TK-48-01  
+- Mata Kuliah: Pemrograman Web  
 
 ## ✨ Fitur Utama
 
@@ -124,11 +124,6 @@ Website ini fully responsive dan bisa diakses dengan baik di:
 - 💻 Laptop (1024px - 1920px)
 - 📱 Tablet (768px - 1024px)
 - 📱 Mobile (320px - 768px)
-
-## ⌨️ Keyboard Shortcuts
-
-- `Ctrl/Cmd + K` - Langsung ke halaman login
-- `ESC` (di dashboard) - Trigger logout
 
 ## 🎯 Testing
 
