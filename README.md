@@ -174,8 +174,3 @@ Beberapa ide untuk pengembangan selanjutnya:
 - [ ] Multi-language support
 - [ ] Dark mode toggle
 
-
-
-Jika ada pertanyaan atau saran, silakan hubungi melalui form kontak di website.
-"
-Observation: Create successful: /app/tugas-modul-4/README.md
