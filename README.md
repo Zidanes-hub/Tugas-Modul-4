@@ -156,16 +156,3 @@ Website ini fully responsive dan bisa diakses dengan baik di:
 - 📊 Interactive stats display
 - 🔔 Alert notifications untuk feedback
 
-
-## 🔮 Future Improvements
-
-Beberapa ide untuk pengembangan selanjutnya:
-- [ ] Backend API dengan Node.js/PHP
-- [ ] Database integration (MySQL/MongoDB)
-- [ ] Real-time notifications
-- [ ] User profile management
-- [ ] File upload functionality
-- [ ] Password encryption
-- [ ] Multi-language support
-- [ ] Dark mode toggle
-
