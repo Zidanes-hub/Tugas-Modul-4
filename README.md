@@ -5,7 +5,7 @@
 - Kelas: D3TK-48-01  
 - Mata Kuliah: Pemrograman Web  
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 ### 1. **Halaman Beranda (index.html)**
 - 🎨 Hero section dengan gradient modern
@@ -29,7 +29,7 @@
 - 🚪 Logout functionality
 - 🔒 Protected route (hanya bisa diakses setelah login)
 
-## 🎯 Cara Menggunakan
+## 🎯 Cara Menggunakan 
 
 ### Metode 1: Buka Langsung di Browser
 ```bash
@@ -63,7 +63,7 @@ http-server -p 8080
 # http://localhost:8080
 ```
 
-## 🔑 Kredensial Login
+## Kredensial Login
 
 Untuk testing, gunakan kredensial berikut:
 
@@ -75,7 +75,7 @@ Untuk testing, gunakan kredensial berikut:
 - Username: `user`
 - Password: `user123`
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```
 tugas-modul-4/
@@ -93,7 +93,7 @@ tugas-modul-4/
 └── README.md           # Dokumentasi (file ini)
 ```
 
-## 🎨 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **HTML5** - Struktur semantic modern
 - **CSS3** - Styling dengan:
@@ -110,14 +110,14 @@ tugas-modul-4/
   - Smooth scrolling
   - IntersectionObserver API
 
-## 🔒 Fitur Keamanan
+## Fitur Keamanan
 
 1. **Session Management** - Menggunakan localStorage untuk tracking login
 2. **Protected Routes** - Dashboard hanya bisa diakses setelah login
 3. **Form Validation** - Validasi input di frontend
 4. **Auto Redirect** - Redirect otomatis jika belum login
 
-## 📱 Responsive Design
+## Responsive Design
 
 Website ini fully responsive dan bisa diakses dengan baik di:
 - 💻 Desktop (1920px+)
@@ -125,7 +125,7 @@ Website ini fully responsive dan bisa diakses dengan baik di:
 - 📱 Tablet (768px - 1024px)
 - 📱 Mobile (320px - 768px)
 
-## 🎯 Testing
+## Testing
 
 ### Test Login
 1. Buka `login.html`
@@ -146,13 +146,4 @@ Website ini fully responsive dan bisa diakses dengan baik di:
 2. Isi form dengan data
 3. Klik \"Kirim Pesan\"
 4. Akan muncul konfirmasi
-
-## 🌟 Fitur Tambahan
-
-- ✨ Smooth scroll navigation
-- 🎨 Hover effects pada semua interaktive elements
-- 💫 Fade-in animations untuk cards
-- 🎯 Console easter egg (buka developer console!)
-- 📊 Interactive stats display
-- 🔔 Alert notifications untuk feedback
 
