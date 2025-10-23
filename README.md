@@ -33,7 +33,8 @@
 
 ### Metode 1: Buka Langsung di Browser
 ```bash
-# Cukup buka file index.html di browser favorit Anda
+# Buka CMD ketik 'git clone [url_repository]
+# Cukup buka file index.html di browser Anda
 # Double click pada index.html atau:
 firefox index.html
 # atau
