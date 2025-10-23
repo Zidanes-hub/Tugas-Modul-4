@@ -1,4 +1,4 @@
-## 📝 Identias Praktikan
+## 📝 Identitas Praktikan
 
 - Nama: Zidane Surya Nugraha
 - Nim: 607022400036
