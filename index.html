@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Web Zidanes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Zidanes Web</div>
+            <ul>
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="login.html" class="btn-login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 data-testid="hero-title">Selamat Datang di Web Zidanes</h1>
+                <p class="hero-subtitle">Platform pembelajaran pemrograman web modern dengan HTML, CSS, dan JavaScript</p>
+                <div class="hero-buttons">
+                    <a href="login.html" class="btn btn-primary" data-testid="get-started-btn">Mulai Sekarang</a>
+                    <a href="#tentang" class="btn btn-secondary">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="tentang" class="about-section">
+            <div class="container">
+                <h2 data-testid="about-title">Tentang Platform Ini</h2>
+                <p>Platform ini merupakan tugas dari praktikum pemrograman web yang menampilkan implementasi berbagai fitur web modern seperti:</p>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Sistem Login</h3>
+                        <p>Autentikasi pengguna dengan validasi form</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Dashboard</h3>
+                        <p>Panel kontrol interaktif untuk pengguna</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Design Modern</h3>
+                        <p>Tampilan responsif dan menarik</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="kontak" class="contact-section">
+            <div class="container">
+                <h2 data-testid="contact-title">Hubungi Kami</h2>
+                <form id="formKontak" class="contact-form" data-testid="contact-form">
+                    <div class="form-group">
+                        <label for="nama">Nama:</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" data-testid="contact-name-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="nama@email.com" data-testid="contact-email-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pesan:</label>
+                        <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..." data-testid="contact-message-input" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" data-testid="contact-submit-btn">Kirim Pesan</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pemrograman Web D3TK-48-01 - Zidanes</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

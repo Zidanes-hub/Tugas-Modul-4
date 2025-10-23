@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Web Zidanes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <h1 data-testid="login-title">Login</h1>
+                <p>Masuk ke dashboard Anda</p>
+            </div>
+
+            <form id="loginForm" data-testid="login-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Masukkan username" data-testid="login-username-input" required autocomplete="username">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Masukkan password" data-testid="login-password-input" required autocomplete="current-password">
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <label>
+                        <input type="checkbox" id="rememberMe" data-testid="remember-me-checkbox">
+                        <span>Ingat saya</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" data-testid="login-submit-btn">Masuk</button>
+            </form>
+
+            <div class="login-footer">
+                <p>Belum punya akun? <a href="#">Daftar disini</a></p>
+                <p><a href="index.html">← Kembali ke Beranda</a></p>
+            </div>
+
+            <div class="login-info">
+                <p><strong>Info Login Demo:</strong></p>
+                <p>Username: <code>admin</code></p>
+                <p>Password: <code>admin123</code></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Web Zidanes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="dashboard-header">
+        <nav>
+            <div class="logo">Zidanes Dashboard</div>
+            <ul>
+                <li><a href="dashboard.html" class="active">Dashboard</a></li>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#pengaturan">Pengaturan</a></li>
+                <li><a href="#" id="logoutBtn" class="btn-logout" data-testid="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-main">
+        <div class="container">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <h1 data-testid="dashboard-title">Selamat Datang, <span id="userName" data-testid="user-name-display">User</span>! 👋</h1>
+                <p class="subtitle">Ini adalah dashboard Anda. Kelola semua aktivitas dari sini.</p>
+            </section>
+
+            <!-- Stats Cards -->
+            <section class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-card" data-testid="stat-projects">
+                        <div class="stat-icon">📁</div>
+                        <div class="stat-info">
+                            <h3>12</h3>
+                            <p>Total Proyek</p>
+                        </div>
+                    </div>
+                    <div class="stat-card" data-testid="stat-tasks">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-info">
+                            <h3>8</h3>
+                            <p>Tugas Selesai</p>
+                        </div>
+                    </div>
+                    <div class="stat-card" data-testid="stat-pending">
+                        <div class="stat-icon">⏳</div>
+                        <div class="stat-info">
+                            <h3>4</h3>
+                            <p>Sedang Berjalan</p>
+                        </div>
+                    </div>
+                    <div class="stat-card" data-testid="stat-completed">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-info">
+                            <h3>95%</h3>
+                            <p>Tingkat Penyelesaian</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Activities -->
+            <section class="activities-section">
+                <h2 data-testid="activities-title">Aktivitas Terbaru</h2>
+                <div class="activities-list">
+                    <div class="activity-item" data-testid="activity-1">
+                        <div class="activity-icon">📝</div>
+                        <div class="activity-content">
+                            <h4>Tugas Modul 4 diselesaikan</h4>
+                            <p>Anda telah menyelesaikan tugas pemrograman web</p>
+                            <span class="activity-time">2 jam yang lalu</span>
+                        </div>
+                    </div>
+                    <div class="activity-item" data-testid="activity-2">
+                        <div class="activity-icon">🚀</div>
+                        <div class="activity-content">
+                            <h4>Proyek baru dimulai</h4>
+                            <p>Memulai pengembangan website portfolio</p>
+                            <span class="activity-time">5 jam yang lalu</span>
+                        </div>
+                    </div>
+                    <div class="activity-item" data-testid="activity-3">
+                        <div class="activity-icon">💻</div>
+                        <div class="activity-content">
+                            <h4>Update sistem login</h4>
+                            <p>Menambahkan fitur autentikasi pengguna</p>
+                            <span class="activity-time">1 hari yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="actions-section">
+                <h2 data-testid="actions-title">Aksi Cepat</h2>
+                <div class="actions-grid">
+                    <button class="action-btn" data-testid="action-new-project">
+                        <span class="action-icon">➕</span>
+                        <span>Proyek Baru</span>
+                    </button>
+                    <button class="action-btn" data-testid="action-upload">
+                        <span class="action-icon">📤</span>
+                        <span>Upload File</span>
+                    </button>
+                    <button class="action-btn" data-testid="action-settings">
+                        <span class="action-icon">⚙️</span>
+                        <span>Pengaturan</span>
+                    </button>
+                    <button class="action-btn" data-testid="action-help">
+                        <span class="action-icon">❓</span>
+                        <span>Bantuan</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pemrograman Web D3TK-48-01 - Dashboard Zidanes</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
